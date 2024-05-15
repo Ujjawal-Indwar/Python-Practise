@@ -23,7 +23,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-l_or_r = (input("Enter either left or right")).lower()
+l_or_r = (input("Enter either left or right\n")).lower()
 if l_or_r=='right':
     print('Game Over')
 elif l_or_r == 'left':
